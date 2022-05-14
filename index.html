@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>very cool gua website</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  
+</head>
+<body>
+    <header>
+        <a herf="#" class="GUA">GUA</a>
+        <ul>
+            <li> <a href="#" class="active">Home</a></li></a>
+            <li> <a href="index5.html" >About</a></li> 
+            <li> <a href="index3.html">Gua</a></li>
+            <li> <a href="index4.html">Donation</a></li>
+    
+</ul>
+    </header>
+<section>
+<img src="stars.png" id="stars">
+<img src="moon.png" id="moon">
+<img src="mountains_behind.png" id="mountains_behind">
+<h2 id="text">GUA</h2>
+<a href="#sec" id="btn">Eplore</a>
+<img src="mountains_front.png" id="mountains_front">
+
+</section>
+<div class="sec" id="sec">
+    <h2>
+      GUA CO LIMITED
+    </h2> 
+    <p>We are the gua group limited and are set ong getting the gua to everyone who wants to eat it even if the gua is really weird and strange. The gua of 
+        this website will be mostly from zjh and ykh but will also contain some things from famous gua-ers like Izuki, Henry, and the developer of this 
+        website <br>-Eric, The allfather/creator<br><br><br><br><br> GUA, ALSO KNOWN AS MELON, IS THE BEST THING IN THE WORLD. IT CAN BE THE RESULT OF A GAME OF TRUTH OF DARE OR SCREENSHOTS OF AN EDITED CHAT HISTORY. 
+        IT IS KNOWN THAT 6B IS THE CREATOR OF MOST MELONS. MANY FAMOUS 6B MELONERS ARE DAVID AND MADELINE, THE FAMOUS COUPLE. OTHER 6B MELONERS ARE HENRIK AND ERIK, THE DYNAMIC DUO. 
+        THIS WEBSITE HAS MANY MELON FROM THESE WONDERFUL MELONERS.<br><br>-Lucas, creater of Izuki simulator<br><br><br><br>瓜是朋友之间的爱情故事hehe<br><br>-Jennifer, very cool<br><br>
+        瓜（名词）---某一个事件可以让人们满足他们的好奇心，瓜的甜度由这件事情关系到的人数，秘密来决定<br><br>-zy npy, Jolly</p>
+</div>
+<script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let mountains_behind = document.getElementById('mountains_behind');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let mountains_front = document.getElementById('mountains_front');
+    let header = document.querySelector('header');
+
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    stars.style.left = value + 100000000 + "cm";
+    moon.style.top = value + 1.05 + "px";
+    stars.style.left = value + 0.25 + "px";
+    mountains_behind.style.top = value * 1 + 'px';
+    mountains_front.style.top = value * 0.5+ 'px';
+    text.style.marginRight = value * 4 + 'px';
+    text.style.marginTop = value * 1.5 + 'px';
+    btn.style.marginTop = value * 1.5 + 'px';
+   header.style.top = value * 0.5 + 'px';
+   
+    
+})
+
+
+</script>
+</body>
+</html>
